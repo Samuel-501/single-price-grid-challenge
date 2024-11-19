@@ -1,0 +1,103 @@
+
+/* styling the body */
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+
+/* styling section  */
+section{
+    border: 1px solid transparent;
+    margin-left: 33%;
+    margin-top: 10%;
+    width: 550px;
+    background-color: white;
+    border-radius: 10px !important;
+}
+
+/* styling section1 dic */
+.section1{
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+
+.section1 #p1{
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    font-size: 20px;
+}
+
+.section1 #p2{
+    color: hsl(71, 73%, 54%);
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+}
+
+.section1 #p3{
+    color: hsl(218, 22%, 67%);
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+}
+
+.section1 #p4{
+    color: hsl(218, 22%, 67%);
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+}
+
+/* styling section2 div */
+.section2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: hsl(218, 22%, 67%);
+    color: white;
+}
+
+/* styling part1 div */
+.part1{
+    background-color: hsl(179, 62%, 43%);
+    padding-left: 25px;
+}
+
+.part1 #p4{
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+}
+
+.part1 #p5{
+    font-family: "Karla", sans-serif;
+    color: hsl(218, 22%, 67%);
+}
+#p5 span{
+    font-size: 50px;
+    color: white;
+}
+
+.part1 #p6{
+    font-family: "Karla", sans-serif;
+}
+
+input[type="button"]{
+       font-family: "Karla", sans-serif;
+       padding-left: 20%;
+       padding-top: 3%;
+       padding-bottom: 3%;
+       padding-right: 20%;
+       margin-left: 18%;
+       margin-bottom: 9%;
+       background-color: hsl(71, 73%, 54%);
+       border: 1px transparent;
+       border-radius: 5px;
+}
+/* styling part2 div */
+.part2{
+    background-color: hsl(218, 22%, 67%);
+    padding-left: 25px;
+}
+
+.part2 p{
+    font-family: "Karla", sans-serif;
+    font-size: 12px;
+}
